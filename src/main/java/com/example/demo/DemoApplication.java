@@ -15,7 +15,7 @@ public class DemoApplication {
     }
     //spring change again
 
-    @GetMapping("/hello-spring")
+    @GetMapping("/hello-defa")
     String greet(){
         return "Hello, Spring!";
     }
